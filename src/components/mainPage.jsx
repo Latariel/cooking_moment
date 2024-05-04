@@ -13,14 +13,6 @@ export const MainPage = () =>  {
 
         return (
             <div>
-{/*<div className={'lol'}>ГЛАВНАЯ ЗАВТРАК ОБЕД УЖИН</div>*/}
-{/*                <div className='top'>*/}
-{/*                    <a href={'/'}>ГЛАВНАЯ</a>*/}
-{/*                    <a href={'/breakfast'}>ЗАВТРАК</a>*/}
-{/*                    <a href={'/lunch'}>ОБЕД</a>*/}
-{/*                    <a href={'/dinner'}>УЖИН</a>*/}
-{/*                </div>*/}
-
                 <div className="link_top">
                     <Link className='link' to="/"><span>ГЛАВНАЯ</span></Link>
                     <Link className='link' to="/breakfast"><span>ЗАВТРАК</span></Link>
@@ -28,27 +20,6 @@ export const MainPage = () =>  {
                     <Link className='link' to="/dinner"><span>УЖИН</span></Link>
 
                 </div>
-                {/*<img className={'star_1'} src={star}/>*/}
-                {/*<div className='text_1'>*/}
-                {/*    /!*<img className={'img_1'} src={cheese}/>*!/*/}
-                {/*    <h1>COOPER’S*/}
-                {/*        DINER</h1>*/}
-                {/*    <h2>Tasty Foods For*/}
-                {/*        Everyone to Enjoy!</h2>*/}
-                {/*    <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</h3>*/}
-
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img className={'img_2'} src={smoothie}/>*/}
-                {/*    /!*<div >*!/*/}
-
-                {/*    <div className={'text_1'}>*/}
-                {/*        <h1>JJJJJ</h1>*/}
-                {/*    </div>*/}
-                {/*    <img className={'img_1'} src={cheese}/>*/}
-                {/*    /!*</div>*!/*/}
-                {/*</div>*/}
-                {/*<img className={'star_1'} src={star}/>*/}
                 <img className={'point_1'} src={point}/>
                 <table className="center">
                     <tbody>
@@ -86,22 +57,10 @@ export const MainPage = () =>  {
                         <h2 className={'text_modal_2'}>Моя философия:</h2>
 
                         <h2 className={'text_modal_3'}>Простота: Рецепты должны быть понятны и доступны каждому.</h2>
-                        <h2>Любовь к еде: Каждое блюдо готовится с душой и заботой.</h2>
-                        <h2>Эксперименты: Я люблю пробовать новое и делиться своими открытиями.</h2>
+                        <h2 className={'text_modal_3'}>Любовь к еде: Каждое блюдо готовится с душой и заботой.</h2>
+                        <h2 className={'text_modal_3'}>Эксперименты: Я люблю пробовать новое и делиться своими открытиями.</h2>
                         <img className={'star_6'} src={star}/>
                     </div>
-                    {/*<h2>Чек:</h2>*/}
-                    {/*<h2 className={'modal_1'}>Начните день с бодрящих завтраков, восстановите силы обедами, полными энергии,*/}
-                    {/*    и закончите день семейными ужинами, которые согреют душу</h2>*/}
-               {/*<h2 className={'text_modal_1'}>Привет! Меня зовут Анна, и это мой личный кулинарный уголок в интернете. Я обожаю готовить и хочу поделиться своими любимыми рецептами завтраков, обедов и ужинов с вами. Здесь вы найдете всё: от быстрых сэндвичей до праздничных блюд, которые я готовлю для семьи и друзей.</h2>*/}
-               {/*     <h2 className={'text_modal_2'}>Моя философия:</h2> <br/>*/}
-               {/*     <h2>Простота: Рецепты должны быть понятны и доступны каждому.</h2>*/}
-               {/*     <br/>*/}
-               {/*     <h2>Любовь к еде: Каждое блюдо готовится с душой и заботой.</h2>*/}
-               {/*     <br/>*/}
-               {/*     <h2>Эксперименты: Я люблю пробовать новое и делиться своими открытиями.</h2>*/}
-
-                    {/*<br/></h2>*/}
                 </Modal>
 
 
