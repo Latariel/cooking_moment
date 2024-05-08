@@ -7,8 +7,114 @@
 /*    background-image: url("img/104-60-5.png");*/
 /*}*/
 
-/*@font-face {*/
-/*    font-family: "Yomogi", cursive;*/
-/*    font-weight: 400;*/
-/*    font-style: normal;*/
-/*}*/
+.breakfast{
+    font-family: "Caveat", cursive;
+    color: #e25442;
+    margin-top: 40px;
+    font-size: xx-large;
+}
+
+
+@mixin clearfix {
+&:after {
+    display: table;
+    clear: both;
+    content:'';
+}
+}
+
+body {
+    margin-top: 3rem;
+}
+
+.l-wrap {
+    /*max-width: 1140px;*/
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.grid-item {
+    /*width: calc((100% - 24px * 3) / 3);*/
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: left;
+    position: center;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*flex-direction: column;*/
+    /*display:inline;*/
+
+}
+
+/* Demo purposes */
+.grid-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    width: 340px;
+    border-radius: 15px;
+    border: 4px dotted  #da4b38;
+    margin-left: 85px;
+    text-align: center;
+    background-color: rgba(243, 240, 240, 0.22);
+}
+
+@media (max-width: 992px) {
+    .grid-inner {
+        margin-left: 35px;
+    }
+}
+
+.pank{
+    height: 35%;
+    width: 50%;
+    border: 1px solid #da4b38;
+    border-radius: 13px;
+    background-color: rgba(218, 75, 56, 0.96);
+}
+
+.txt1{
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    position: center;
+    background-color: rgba(243, 240, 240, 0.04);
+
+    /*font-family: "Bad Script", cursive;*/
+    /*font-family: "Marck Script", cursive;*/
+}
+
+.bold {
+    font-size: xx-large;
+    background-color: rgba(243, 240, 240, 0.04);
+    /*text-align: center;*/
+}
+
+.btn_2{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    /*margin-left: 15px;*/
+    background-color: #da4b38;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 25px;
+    font-family: "Caveat", cursive;
+    /*letter-spacing: -5px;*/
+    font-weight: bold;
+    font-size: large;
+    flex-wrap: wrap;
+}
