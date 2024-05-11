@@ -1,6 +1,7 @@
 import React from 'react';
 import './Modal.css'
-import { IoIosClose } from "react-icons/io";
+// import { IoIosClose } from "react-icons/io";
+import { IoCloseSharp } from "react-icons/io5";
 import { Transition } from "react-transition-group";
 
 
@@ -19,7 +20,7 @@ export const Modal = ({ isOpen, onClose, children }) => {
                                     className="modal-close-button"
                                     onClick={() => onClose()}
                                 >
-                                    <IoIosClose className={'close'}/>
+                                    <IoCloseSharp className={'close'}/>
                                 </button>
                                 {children}
                             </div>

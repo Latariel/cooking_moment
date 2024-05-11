@@ -16,7 +16,7 @@
 
 
 @mixin clearfix {
-&:after {
+:after {
     display: table;
     clear: both;
     content:'';
@@ -96,6 +96,37 @@ body {
     /*font-family: "Marck Script", cursive;*/
 }
 
+.txt2{
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    position: center;
+    background-color: rgba(243, 240, 240, 0.04);
+}
+
+.txt3{
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    position: center;
+    background-color: rgba(243, 240, 240, 0.04);
+
+    /*font-family: "Bad Script", cursive;*/
+    /*font-family: "Marck Script", cursive;*/
+}
+
 .bold {
     font-size: xx-large;
     background-color: rgba(243, 240, 240, 0.04);
@@ -117,4 +148,68 @@ body {
     font-weight: bold;
     font-size: large;
     flex-wrap: wrap;
+}
+
+.text_modal_rec {
+    text-align: center;
+    font-size: large;
+
+}
+
+
+
+@mixin clearfix {
+:after {
+    display: table;
+    clear: both;
+    content:'';
+}
+}
+
+body {
+    margin-top: 3rem;
+}
+
+.m-wrap {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.grid-item_1 {
+    /*width: calc((100% - 24px * 3) / 3);*/
+    /*height: 200px;*/
+    /*width: auto;*/
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 24px;
+    margin-left: 30px;
+    margin-right: 5px;
+    float: left;
+}
+
+/* Demo purposes */
+.grid-item_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 200px;*/
+    text-align: center;
+
+    /*background: rgba(red, 0.25);*/
+
+}
+
+
+
+
+
+.img_rec {
+    margin-top: 0;
+    width: 70%;
+    height: 55%;
+    border-radius: 10px;
 }

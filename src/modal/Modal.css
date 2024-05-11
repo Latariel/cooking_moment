@@ -1,11 +1,27 @@
+/*.modal {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: rgba(0, 0, 0, 0.75);*/
+/*    !* opacity: 0; *!*/
+/*    overflow: hidden;*/
+/*    overflow-y: auto;*/
+/*    transition: opacity 0.3s;*/
+/*    z-index: 999;*/
+/*    font-family: "Caveat", cursive;*/
+
+/*}*/
+
+
 .modal {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    /* opacity: 0; */
+    background-color: rgba(0, 0, 0, 0.75); /* Задний план с полупрозрачностью */
     overflow: hidden;
     overflow-y: auto;
     transition: opacity 0.3s;
@@ -13,15 +29,17 @@
     font-family: "Caveat", cursive;
 }
 
+
 .modal-wrapper {
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    /*float: contour;*/
+    float: contour;
     justify-content: center;
     align-items: center;
     width: 100%;
+    /*height: 300px;*/
     min-height: 100%;
 }
 
@@ -32,12 +50,14 @@
     max-width: 600px;
     border-radius: 20px;
     background-color: #f2e5f8;
+
     padding: 40px 20px 20px 20px;
     transform: translateY(-50px);
     transition: opacity 0.3s, transform 0.3s;
 }
 .modal-content h2{
     background-color: #f2e5f8;
+
     color: rgba(226, 84, 66, 0.71);
     margin: 20px;
 
@@ -52,14 +72,16 @@
 
 .close{
     background-color: #f2e5f8;
+    height: 20px;
+    width: 20px;
 }
 
 .modal-close-button {
     position: absolute;
     top: 16px;
     right: 16px;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     padding: 0;
     border: 0;
     /*background-color: transparent;*/
@@ -71,6 +93,7 @@
 .modal--entering,
 .modal--entered {
     opacity: 1;
+    /*opacity: 0 !important;*/
 }
 
 .modal--entering .modal-content,
