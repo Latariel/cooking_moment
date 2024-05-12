@@ -10,7 +10,6 @@ import rec1_2 from './img_2/recept_2_2.jpg';
 import rec1_3 from './img_2/recept_2_3.jpg';
 import rec1_4 from './img_2/recept_2_4.jpg';
 import rec1_5 from './img_2/recept_2_5.jpg';
-import rec1_6 from './img_2/recept_1_6.jpg';
 import star from "./img_2/Shape.png";
 
 
@@ -35,7 +34,7 @@ export const ModalTwo = ({ isOpen, onClose, children }) => {
 
 
     <h2 className={'text_modal_rec_2'}>
-        Продукты: <br/>
+        Ингредиенты: <br/>
         <br/>
         Творог жирный - 500 г<br/>
         Яйцо - 1 шт <br/>
@@ -49,7 +48,7 @@ export const ModalTwo = ({ isOpen, onClose, children }) => {
                             <div className="three-col-grid_1">
                                 <div className="grid-item_1">
                                     <img className={'img_rec'} src={rec1_1}/>
-                                    <h3 className={'txt4'}>В миску кладём творог, добавляем яйцо, сахар, ванилин или ванильный сахар и соль.
+                                    <h3 className={'txt2'}>В миску кладём творог, добавляем яйцо, сахар, ванилин или ванильный сахар и соль.
                                         Всё перемешиваем.</h3>
                                 </div>
                                 <div className="grid-item_1">
@@ -58,18 +57,18 @@ export const ModalTwo = ({ isOpen, onClose, children }) => {
                                 </div>
                                 <div className="grid-item_1">
                                     <img className={'img_rec'} src={rec1_3}/>
-                                    <h3 className={'txt4'}>Ложкой набираем немного творожной массы, опускаем в муку и, хорошо обсыпая мукой, формируем сырники.</h3>
+                                    <h3 className={'txt1'}>Ложкой набираем немного творожной массы, опускаем в муку и, хорошо обсыпая мукой, формируем сырники.</h3>
 
                                 </div>
                                 <div className="grid-item_1">
                                     <img className={'img_rec'} src={rec1_4}/>
-                                    <h3 className={'txt2'}>Обжариваем сырники на умеренном огне до румяного цвета с двух сторон.</h3>
+                                    <h3 className={'txt7'}>Обжариваем сырники на умеренном огне до румяного цвета с двух сторон.</h3>
 
                                 </div>
                                 <div className="grid-item_1">
 
                                     <img className={'img_rec'} src={rec1_5}/>
-                                    <h3 className={'txt4'}>Снимаем сырники на бумажное полотенце, чтобы избавиться от лишнего масла.</h3>
+                                    <h3 className={'txt1'}>Снимаем сырники на бумажное полотенце, чтобы избавиться от лишнего масла.</h3>
 
                                 </div>
                                 {/*<div className="grid-item_1">*/}

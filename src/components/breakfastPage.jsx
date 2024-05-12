@@ -6,13 +6,13 @@ import bliny from './img/bliny.png'
 import pizza from './img/_max (1).png'
 import kiwi from './img/kiwi.png'
 import ovsyanka from './img/ovsyanka.png'
-import React, {useState} from "react";
+import React from "react";
 import star from "./img/Shape.png";
 import {ModalTwo} from '../modal/ModalTwo'
 import {ModalOne} from "../modal/ModalOne";
-
-
-
+import {ModalThree} from "../modal/ModalThree";
+import {ModalFour} from '../modal/ModalFour'
+import {ModalFive} from "../modal/ModalFive";
 
 
 export const BreakfastPage  = () => {
@@ -52,24 +52,25 @@ export const BreakfastPage  = () => {
                                 <div className="grid-inner">
                                     <img className={'pank'} src={bliny}/>
                                     <h3 className={'txt1'}><span className='bold'>Классические блинчики</span> <br/> Золотистые, тонкие блинчики с нежной текстурой – это настоящая классика. Идеальное блюдо для завтрака или обеда. Приготовьте их по традиционному рецепту, и блины будут радовать вас своим вкусом и ароматом. Можно подавать с медом, сгущенным молоком или сметаной.</h3>
-                                    <button className={'btn_2'}>Подробнее</button>
+                                    <ModalThree/>
                                 </div>
                                 {/*<img className={'star_3'} src={star}/>*/}
                             </div>
 
-                            <div className="grid-item">
-                                {/*<img className={'star_3'} src={star}/>*/}
-                                <div className="grid-inner">
-                                    <img className={'pank'} src={pizza}/>
-                                    <h3 className={'txt1'}><span className='bold'>Пицца на сковороде</span> <br/> От такого варианта приготовления не стоит ожидать вкуса классической пиццы и тонкой хрустящей корочки. Но если нет духовки и времени, а чего-то сытного и сырного хочется, рецепт пиццы на сковороде — то, надо. Получается вкусно, а готовится просто.</h3>
-                                    <button className={'btn_2'}>Подробнее</button>
-                                </div>
-                            </div>
+                            {/*<div className="grid-item">*/}
+                            {/*    /!*<img className={'star_3'} src={star}/>*!/*/}
+                            {/*    <div className="grid-inner">*/}
+                            {/*        <img className={'pank'} src={pizza}/>*/}
+                            {/*        <h3 className={'txt1'}><span className='bold'>Пицца на сковороде</span> <br/> От такого варианта приготовления не стоит ожидать вкуса классической пиццы и тонкой хрустящей корочки. Но если нет духовки и времени, а чего-то сытного и сырного хочется, рецепт пиццы на сковороде — то, надо. Получается вкусно, а готовится просто.</h3>*/}
+                            {/*        <button className={'btn_2'}>Подробнее</button>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                             <div className="grid-item">
                                 <div className="grid-inner">
                                     <img className={'pank'} src={kiwi}/>
                                     <h3 className={'txt1'}><span className='bold'>Смузи с киви</span> <br/> Вариант легкого и сытного смузи на завтрак с овсянкой, киви и зеленым чаем. Если нет времени, а чем-то позавтракать хочется, то это идеальный вариант, который в случае чего можно взять с собой и употребить по дороге на работу/учебу</h3>
-                                    <button className={'btn_2'}>Подробнее</button>
+                                    {/*<button className={'btn_2'}>Подробнее</button>*/}
+                                    <ModalFour/>
                                 </div>
                             </div>
                             <div className="grid-item">
@@ -77,7 +78,8 @@ export const BreakfastPage  = () => {
 
                                     <img className={'pank'} src={ovsyanka}/>
                                     <h3 className={'txt1'}><span className='bold'>Ленивая овсянка</span> <br/> С ленивой овсянкой таких проблем нет: завтрак готовится с вечера — утром остается только его съесть. А еще он красиво выглядит. По-английски это блюдо называется overnight oats — «овсянка, которая постояла ночь». Вам даже не придется подходить к плите</h3>
-                                    <button className={'btn_2'}>Подробнее</button>
+                                    {/*<button className={'btn_2'}>Подробнее</button>*/}
+                                    <ModalFive/>
                                 </div>
 
                             </div>

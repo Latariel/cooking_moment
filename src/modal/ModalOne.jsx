@@ -35,7 +35,7 @@ export const ModalOne = ({ isOpen, onClose, children }) => {
 
 
             <h2 className={'text_modal_rec_2'}>
-                Продукты (на 4 порции): <br/>
+                Ингредиенты (на 4 порции): <br/>
                 <br/>
                 Яйца - 2 шт.<br/>
                 Молоко - 200 мл <br/>
