@@ -8,11 +8,11 @@ import kiwi from './img/kiwi.png'
 import ovsyanka from './img/ovsyanka.png'
 import React from "react";
 import star from "./img/Shape.png";
-import {ModalTwo} from '../modal/ModalTwo'
-import {ModalOne} from "../modal/ModalOne";
-import {ModalThree} from "../modal/ModalThree";
-import {ModalFour} from '../modal/ModalFour'
-import {ModalFive} from "../modal/ModalFive";
+import {Modal_1_2} from '../modal/modal_page_1/Modal_1_2'
+import {Modal_1_1} from "../modal/modal_page_1/Modal_1_1";
+import {Modal_1_3} from "../modal/modal_page_1/Modal_1_3";
+import {Modal_1_4} from '../modal/modal_page_1/Modal_1_4'
+import {Modal_1_5} from "../modal/modal_page_1/Modal_1_5";
 
 
 export const BreakfastPage  = () => {
@@ -35,7 +35,7 @@ export const BreakfastPage  = () => {
                                 <div className="grid-inner">
                                     <img className={'pank'} src={panckace}/>
                                     <h3 className={'txt1'}><span className='bold'>Американские блинчики</span>, <br/>которые также известны как панкейки (pancakes), отличаются своей мягкостью, сладостью и превосходным вкусом. Они идеально гармонируют с мёдом и порадуют как взрослых, так и детей. Блинчики, приготовленные на молоке, станут прекрасным выбором для завтрака.</h3>
-                                    <ModalOne/>
+                                    <Modal_1_1/>
                                 </div>
                             </div>
                             <img className={'star_5'} src={star}/>
@@ -43,7 +43,7 @@ export const BreakfastPage  = () => {
                                 <div className="grid-inner">
                                     <img className={'pank'} src={syrnici}/>
                                     <h3 className={'txt1'}><span className='bold'>Сырники</span> <br/> Румяные, нежные сырники с золотистой корочкой – одно только описание вызывает аппетит! Легкое блюдо из творога имеет деликатный вкус и идеально для завтрака или ужина. Пышные сырники по классическому рецепту можно легко приготовить всего за 10 – 15 минут </h3>
-                                    <ModalTwo/>
+                                    <Modal_1_2/>
                                     </div>
                                 <div>
                                 </div>
@@ -52,7 +52,7 @@ export const BreakfastPage  = () => {
                                 <div className="grid-inner">
                                     <img className={'pank'} src={bliny}/>
                                     <h3 className={'txt1'}><span className='bold'>Классические блинчики</span> <br/> Золотистые, тонкие блинчики с нежной текстурой – это настоящая классика. Идеальное блюдо для завтрака или обеда. Приготовьте их по традиционному рецепту, и блины будут радовать вас своим вкусом и ароматом. Можно подавать с медом, сгущенным молоком или сметаной.</h3>
-                                    <ModalThree/>
+                                    <Modal_1_3/>
                                 </div>
                                 {/*<img className={'star_3'} src={star}/>*/}
                             </div>
@@ -70,7 +70,7 @@ export const BreakfastPage  = () => {
                                     <img className={'pank'} src={kiwi}/>
                                     <h3 className={'txt1'}><span className='bold'>Смузи с киви</span> <br/> Вариант легкого и сытного смузи на завтрак с овсянкой, киви и зеленым чаем. Если нет времени, а чем-то позавтракать хочется, то это идеальный вариант, который в случае чего можно взять с собой и употребить по дороге на работу/учебу</h3>
                                     {/*<button className={'btn_2'}>Подробнее</button>*/}
-                                    <ModalFour/>
+                                    <Modal_1_4/>
                                 </div>
                             </div>
                             <div className="grid-item">
@@ -79,7 +79,7 @@ export const BreakfastPage  = () => {
                                     <img className={'pank'} src={ovsyanka}/>
                                     <h3 className={'txt1'}><span className='bold'>Ленивая овсянка</span> <br/> С ленивой овсянкой таких проблем нет: завтрак готовится с вечера — утром остается только его съесть. А еще он красиво выглядит. По-английски это блюдо называется overnight oats — «овсянка, которая постояла ночь». Вам даже не придется подходить к плите</h3>
                                     {/*<button className={'btn_2'}>Подробнее</button>*/}
-                                    <ModalFive/>
+                                    <Modal_1_5/>
                                 </div>
 
                             </div>

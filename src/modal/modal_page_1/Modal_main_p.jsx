@@ -1,11 +1,11 @@
 import React from 'react';
-import './Modal.css'
+import './Modal_main_p.css'
 // import { IoIosClose } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import { Transition } from "react-transition-group";
 
 
-export const Modal = ({ isOpen, onClose, children }) => {
+export const Modal_main_p = ({ isOpen, onClose, children }) => {
     const onWrapperClick = (event) => {
         if (event.target.classList.contains("modal-wrapper")) onClose();
     };

@@ -1,22 +1,22 @@
 import React from 'react';
 import  { useState } from 'react';
 import Modal from 'react-modal';
-import './ModalThree.css'
+import './Modal_1_3.css'
 import { IoCloseSharp } from "react-icons/io5";
 
 
-import rec1_1 from './img_2/recept_3_1.jpg';
-import rec1_2 from './img_2/recept_3_2.jpg';
-import rec1_3 from './img_2/recept_3_3.jpg';
-import rec1_4 from './img_2/recept_3_4.jpg';
-import rec1_5 from './img_2/recept_3_5.jpg';
-import rec1_6 from './img_2/recept_3_6.jpg';
-import rec1_7 from './img_2/recept_3_7.jpg';
-import star from "./img_2/Shape.png";
+import rec1_1 from '../img_2/recept_3_1.jpg';
+import rec1_2 from '../img_2/recept_3_2.jpg';
+import rec1_3 from '../img_2/recept_3_3.jpg';
+import rec1_4 from '../img_2/recept_3_4.jpg';
+import rec1_5 from '../img_2/recept_3_5.jpg';
+import rec1_6 from '../img_2/recept_3_6.jpg';
+import rec1_7 from '../img_2/recept_3_7.jpg';
+import star from "../img_2/Shape.png";
 
 
 
-export const ModalThree = ({ isOpen, onClose, children }) => {
+export const Modal_1_3 = ({ isOpen, onClose, children }) => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 

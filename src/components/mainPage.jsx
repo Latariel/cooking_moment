@@ -4,7 +4,7 @@ import cheese from './img/cheese1.png'
 import smoothie from './img/07.png'
 import star from './img/Shape.png'
 import point from './img/point.png'
-import {Modal} from "../modal/Modal";
+import {Modal_main_p} from "../modal/modal_page_1/Modal_main_p";
 import {Link} from "react-router-dom";
 
 export const MainPage = () =>  {
@@ -46,7 +46,7 @@ export const MainPage = () =>  {
 
 <button className={'btn_1'}    onClick={() => setModalInfoOpen(true)}>О САЙТЕ</button>
 
-                <Modal
+                <Modal_main_p
                     isOpen={modalInfoIsOpen}
                     onClose={() => setModalInfoOpen(false)}
                 >
@@ -61,7 +61,7 @@ export const MainPage = () =>  {
                         <h2 className={'text_modal_3'}>Эксперименты: Я люблю пробовать новое и делиться своими открытиями.</h2>
                         <img className={'star_6'} src={star}/>
                     </div>
-                </Modal>
+                </Modal_main_p>
 
 
             </div>
